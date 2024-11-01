@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngọc Minh iu dấu</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Pacifico', cursive; 
+            background-image: url('https://i.imgur.com/Zs150PE.jpg');
+            background-size: cover;
+            background-position: center; 
+        }
+
+        .center-text {
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+            height: 100vh;           
+            text-align: center;        
+            color: white;
+            animation: giggle 2s infinite;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        @keyframes giggle {
+            0% { transform: rotate(0deg) scale(1); }
+            25% { transform: rotate(5deg) scale(1.1); } 
+            50% { transform: rotate(-5deg) scale(1); } 
+            75% { transform: rotate(5deg) scale(1.1); } 
+            100% { transform: rotate(0deg) scale(1); }
+        }
+
+        
+        .birthday-message {
+            font-size: 35px;
+        }
+        
+        .birthday-highlight {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-text">
+        <p class="birthday-message">Happy birthday <br> 
+            <span class="birthday-highlight">To you</span> <br> 
+            <span class="birthday-highlight">you saved the date</span> <br> 
+            <span class="birthday-highlight">01.11.2007</span>
+        </p>
+    </div>
+</body>
+</html>
